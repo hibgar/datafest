@@ -1,1 +1,11 @@
-abcdjyfgh
+
+---
+  filename: crime_random_sample.csv
+---
+23748935796
+```{r}
+data <- read.csv(params$filename)
+head(data)
+# my comment
+```
+
